@@ -17,4 +17,5 @@ Verify Result
     [Arguments]    ${exp_result}
     [Documentation]    Verifies the displayed result
     ${result}=    Get Element Attribute    ${displayedResult}    text
+    Capture Page Screenshot     calc_result.png
     Should Be Equal    ${result}    ${exp_Result}
