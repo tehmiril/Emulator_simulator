@@ -1,0 +1,10 @@
+*** Settings ***
+Library           AppiumLibrary
+Library           String
+Library           Collections
+Resource          Test_data_calculator.txt
+Resource          Custom_calc_keywords.txt
+Resource	  ${device}
+
+*** Test Cases ***
+<dynamic>

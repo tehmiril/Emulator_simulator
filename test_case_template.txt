@@ -1,0 +1,10 @@
+<test_case_name>
+	[Documentation]    Basic function
+	[Setup]    Open Calc app
+	Log    "STEP 1, enter values"
+	<RF_keywords>
+	Log    "STEP 2, view result"
+	Get Result
+	Log    "STEP 3, let's verify"
+	Verify Result
+	[Teardown]    Close Application
