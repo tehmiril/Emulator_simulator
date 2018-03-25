@@ -7,4 +7,5 @@
 	Get Result
 	Log    "STEP 3, let's verify"
 	Verify Result
+	Sleep		5s
 	[Teardown]    Close Application
